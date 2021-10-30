@@ -1,0 +1,16 @@
+footer {
+    background-color: getColour(offwhite) !important;
+}
+
+.footer__container {
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    & h5 {
+        font-size: 12px;
+        margin: 0px;
+    }
+}

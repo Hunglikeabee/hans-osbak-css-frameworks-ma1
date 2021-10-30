@@ -1,0 +1,13 @@
+header {
+  background-color: getColour(offwhite) !important;
+}
+
+.navbar {
+  background-color: getColour(offwhite) !important;
+  max-width: 1150px;
+  margin: 0 auto;
+
+  & .active {
+    color: getColour(pink) !important;
+  }
+}

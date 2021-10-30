@@ -1,0 +1,13 @@
+$colours: (
+    gray: #E5E5E5,
+    offwhite: #F4F3EE,
+    pink: #E5689D,
+    green: #A4C799,
+    white: #FFFFFF,
+);
+
+$standard-font: 'Open Sans', sans-serif;
+
+@function getColour($colour) {
+    @return map-get($colours , $colour)
+}
