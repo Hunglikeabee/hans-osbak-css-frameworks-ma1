@@ -1,4 +1,7 @@
 main {
+    margin: 20px;
+    margin-bottom: 80px;
+
     & h1 {
         text-align: center;
         padding: 50px;
@@ -6,6 +9,7 @@ main {
 }
 
 .main {
+    
 
     &__container {
         max-width: 1150px;

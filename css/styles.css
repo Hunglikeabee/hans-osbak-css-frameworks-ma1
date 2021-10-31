@@ -24,6 +24,11 @@ header {
   color: #E5689D !important;
 }
 
+main {
+  margin: 20px;
+  margin-bottom: 80px;
+}
+
 main h1 {
   text-align: center;
   padding: 50px;
@@ -79,6 +84,19 @@ footer {
 .footer__container h5 {
   font-size: 12px;
   margin: 0px;
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer__container h5 {
+    padding: 5px;
+  }
 }
 
 html, body {
